@@ -30,7 +30,7 @@ module Slate
             "master"
           end
 
-          output, _status = Open3.capture2e("git", "clone", "--depth", "1", "--branch", branch, "--progress", "https://github.com/lord/slate.git",  tmpdir)
+          output, _status = Open3.capture2e("git", "clone", "--depth", "1", "--branch", branch, "--progress", "https://github.com/e1337kat/slate.git",  tmpdir)
           puts output
 
           if logo
